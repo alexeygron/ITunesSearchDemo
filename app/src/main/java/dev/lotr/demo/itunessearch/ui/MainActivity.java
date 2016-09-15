@@ -8,7 +8,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -113,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements
             return list;
         } catch (JSONException e) {
             e.printStackTrace();
-            return new ArrayList();
+            return list;
         }
     }
 
@@ -136,7 +135,6 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public boolean onQueryTextSubmit(String query) {
-        Log.i(TAG, query);
         initLoading(query);
         return false;
     }

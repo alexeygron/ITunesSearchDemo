@@ -61,7 +61,6 @@ public class ListTrackAdapter  extends RecyclerView.Adapter<ListTrackAdapter.Hol
         @BindView(R.id.trackName) TextView trackName;
         @BindView(R.id.artistName) TextView artistName;
         @BindView(R.id.genre) TextView genre;
-        @BindView(R.id.trackPrice) TextView trackPrice;
         @BindView(R.id.artwork) ImageView artwork;
 
         public Holder(View itemView) {
@@ -72,8 +71,7 @@ public class ListTrackAdapter  extends RecyclerView.Adapter<ListTrackAdapter.Hol
         public void bindDoctor(Track track) {
             trackName.setText(track.getTrackName());
             artistName.setText(track.getArtistName());
-            genre.setText(track.getGenre());
-            trackPrice.setText(track.getTrackPrice() + "$");
+            genre.setText("Жанр: " + track.getGenre() + " / " + "Цена: " + track.getTrackPrice());
             // Using Glide library, loading artwork for track, and set him in view
             Glide.with(context).load(track.getArtworkUrl()).into(artwork);
         }
