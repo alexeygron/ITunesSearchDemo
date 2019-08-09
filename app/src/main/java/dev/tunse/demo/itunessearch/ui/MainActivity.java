@@ -1,4 +1,4 @@
-package dev.lotr.demo.itunessearch.ui;
+package dev.tunse.demo.itunessearch.ui;
 
 import android.app.LoaderManager;
 import android.content.Loader;
@@ -24,9 +24,9 @@ import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import dev.lotr.demo.itunessearch.R;
-import dev.lotr.demo.itunessearch.model.Track;
-import dev.lotr.demo.itunessearch.net.TrackLoader;
+import dev.tunse.demo.itunessearch.R;
+import dev.tunse.demo.itunessearch.model.Track;
+import dev.tunse.demo.itunessearch.net.TrackLoader;
 
 /**
  * Show main screen app.

@@ -1,4 +1,4 @@
-package dev.lotr.demo.itunessearch.net;
+package dev.tunse.demo.itunessearch.net;
 
 import java.io.IOException;
 

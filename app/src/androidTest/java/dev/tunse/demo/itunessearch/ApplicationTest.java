@@ -1,4 +1,4 @@
-package dev.lotr.demo.itunessearch;
+package dev.tunse.demo.itunessearch;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

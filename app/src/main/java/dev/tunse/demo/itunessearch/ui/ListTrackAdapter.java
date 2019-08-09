@@ -1,4 +1,4 @@
-package dev.lotr.demo.itunessearch.ui;
+package dev.tunse.demo.itunessearch.ui;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -15,8 +15,8 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import dev.lotr.demo.itunessearch.R;
-import dev.lotr.demo.itunessearch.model.Track;
+import dev.tunse.demo.itunessearch.R;
+import dev.tunse.demo.itunessearch.model.Track;
 
 public class ListTrackAdapter  extends RecyclerView.Adapter<ListTrackAdapter.Holder> {
 

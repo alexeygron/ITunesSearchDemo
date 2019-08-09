@@ -1,4 +1,4 @@
-package dev.lotr.demo.itunessearch.model;
+package dev.tunse.demo.itunessearch.model;
 
 public class Track {
 

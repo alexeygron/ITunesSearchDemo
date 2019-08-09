@@ -1,4 +1,4 @@
-package dev.lotr.demo.itunessearch;
+package dev.tunse.demo.itunessearch;
 
 import org.junit.Test;
 
